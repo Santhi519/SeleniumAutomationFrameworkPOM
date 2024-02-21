@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-18T17:59:47 EST" name="RegressionSuite" finished-at="2024-02-18T18:00:06 EST" duration-ms="18702">
+    <groups>
+    </groups>
+    <test started-at="2024-02-18T17:59:47 EST" name="RegressionTest" finished-at="2024-02-18T18:00:06 EST" duration-ms="18702">
+      <class name="com.salesforce.automationtests.LoginTest">
+        <test-method is-config="true" signature="setUpBeforeMethod(java.lang.String)[pri:0, instance:com.salesforce.automationtests.LoginTest@55562aa9]" started-at="2024-02-18T17:59:47 EST" name="setUpBeforeMethod" finished-at="2024-02-18T17:59:49 EST" duration-ms="1643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeMethod -->
+        <test-method signature="CheckRemeberMe_TC3()[pri:0, instance:com.salesforce.automationtests.LoginTest@55562aa9]" started-at="2024-02-18T17:59:49 EST" name="CheckRemeberMe_TC3" finished-at="2024-02-18T17:59:55 EST" duration-ms="5841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckRemeberMe_TC3 -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.salesforce.automationtests.LoginTest@55562aa9]" started-at="2024-02-18T17:59:55 EST" name="tearDownAfterTestMethod" finished-at="2024-02-18T17:59:55 EST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeMethod(java.lang.String)[pri:0, instance:com.salesforce.automationtests.LoginTest@55562aa9]" started-at="2024-02-18T17:59:55 EST" name="setUpBeforeMethod" finished-at="2024-02-18T17:59:56 EST" duration-ms="1091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeMethod -->
+        <test-method signature="ForgotPassword_TC4A()[pri:0, instance:com.salesforce.automationtests.LoginTest@55562aa9]" started-at="2024-02-18T17:59:56 EST" name="ForgotPassword_TC4A" finished-at="2024-02-18T17:59:57 EST" duration-ms="832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPassword_TC4A -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.salesforce.automationtests.LoginTest@55562aa9]" started-at="2024-02-18T17:59:57 EST" name="tearDownAfterTestMethod" finished-at="2024-02-18T17:59:57 EST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeMethod(java.lang.String)[pri:0, instance:com.salesforce.automationtests.LoginTest@55562aa9]" started-at="2024-02-18T17:59:57 EST" name="setUpBeforeMethod" finished-at="2024-02-18T17:59:58 EST" duration-ms="1438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeMethod -->
+        <test-method signature="LoginErrorMessage_TC1()[pri:0, instance:com.salesforce.automationtests.LoginTest@55562aa9]" started-at="2024-02-18T17:59:58 EST" name="LoginErrorMessage_TC1" finished-at="2024-02-18T17:59:59 EST" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorMessage_TC1 -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.salesforce.automationtests.LoginTest@55562aa9]" started-at="2024-02-18T17:59:59 EST" name="tearDownAfterTestMethod" finished-at="2024-02-18T17:59:59 EST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeMethod(java.lang.String)[pri:0, instance:com.salesforce.automationtests.LoginTest@55562aa9]" started-at="2024-02-18T17:59:59 EST" name="setUpBeforeMethod" finished-at="2024-02-18T18:00:01 EST" duration-ms="2064" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeMethod -->
+        <test-method signature="LoginToSalesForce_TC2()[pri:0, instance:com.salesforce.automationtests.LoginTest@55562aa9]" started-at="2024-02-18T18:00:01 EST" name="LoginToSalesForce_TC2" finished-at="2024-02-18T18:00:04 EST" duration-ms="2921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToSalesForce_TC2 -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.salesforce.automationtests.LoginTest@55562aa9]" started-at="2024-02-18T18:00:04 EST" name="tearDownAfterTestMethod" finished-at="2024-02-18T18:00:04 EST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+        <test-method is-config="true" signature="setUpBeforeMethod(java.lang.String)[pri:0, instance:com.salesforce.automationtests.LoginTest@55562aa9]" started-at="2024-02-18T18:00:04 EST" name="setUpBeforeMethod" finished-at="2024-02-18T18:00:05 EST" duration-ms="1259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeMethod -->
+        <test-method signature="ValidateLoginErrorMessage_TC4B()[pri:0, instance:com.salesforce.automationtests.LoginTest@55562aa9]" started-at="2024-02-18T18:00:05 EST" name="ValidateLoginErrorMessage_TC4B" finished-at="2024-02-18T18:00:06 EST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLoginErrorMessage_TC4B -->
+        <test-method is-config="true" signature="tearDownAfterTestMethod()[pri:0, instance:com.salesforce.automationtests.LoginTest@55562aa9]" started-at="2024-02-18T18:00:06 EST" name="tearDownAfterTestMethod" finished-at="2024-02-18T18:00:06 EST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestMethod -->
+      </class> <!-- com.salesforce.automationtests.LoginTest -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>

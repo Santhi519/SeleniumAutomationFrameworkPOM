@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="24.524" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\jgiri\.cache\selenium\chromedriver\win64\121.0.6167.184\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\jgiri\Tekarch_space\SeleniumAutomationFrameworkPOM\target\test-classes;C:\Users\jgiri\Tekarch_space\SeleniumAutomationFrameworkPOM\target\classes;C:\Users\jgiri\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\jgiri\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\jgiri\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\jgiri\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\jgiri\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\jgiri\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\jgiri\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\jgiri\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\jgiri\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\jgiri\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\jgiri\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\jgiri\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar;C:\Users\jgiri\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\jgiri\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\jgiri\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\jgiri\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\jgiri\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\jgiri\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\jgiri\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\jgiri\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\jgiri\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\jgiri\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\jgiri\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\jgiri\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\jgiri\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\jgiri\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\jgiri\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\jgiri\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\jgiri\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\jgiri\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\jgiri\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\jgiri\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\jgiri\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\jgiri\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\jgiri\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\jgiri\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\jgiri\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\jgiri\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\jgiri\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\jgiri\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\jgiri\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\jgiri\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\jgiri\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\jgiri\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\jgiri\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\jgiri\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\jgiri\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\jgiri\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\jgiri\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\jgiri\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\jgiri\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\jgiri\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\jgiri\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\jgiri\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\jgiri\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\jgiri\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\jgiri\.m2\repository\org\apache\logging\log4j\log4j-api\2.22.1\log4j-api-2.22.1.jar;C:\Users\jgiri\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\jgiri\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\jgiri\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\jgiri\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\jgiri\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\jgiri\AppData\Local\Temp\surefire6174374324126853404\surefirebooter-20240219190010098_3.jar C:\Users\jgiri\AppData\Local\Temp\surefire6174374324126853404 2024-02-19T19-00-10_009-jvmRun1 surefire-20240219190010098_1tmp surefire_0-20240219190010098_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\jgiri\Tekarch_space\SeleniumAutomationFrameworkPOM\target\test-classes;C:\Users\jgiri\Tekarch_space\SeleniumAutomationFrameworkPOM\target\classes;C:\Users\jgiri\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\jgiri\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\jgiri\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\jgiri\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\jgiri\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\jgiri\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\jgiri\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\jgiri\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\jgiri\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\jgiri\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\jgiri\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\jgiri\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar;C:\Users\jgiri\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\jgiri\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\jgiri\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\jgiri\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\jgiri\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\jgiri\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\jgiri\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\jgiri\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\jgiri\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\jgiri\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\jgiri\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\jgiri\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\jgiri\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\jgiri\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\jgiri\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\jgiri\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\jgiri\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\jgiri\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\jgiri\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\jgiri\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\jgiri\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\jgiri\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\jgiri\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\jgiri\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\jgiri\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\jgiri\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\jgiri\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\jgiri\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\jgiri\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\jgiri\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\jgiri\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\jgiri\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\jgiri\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\jgiri\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\jgiri\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\jgiri\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\jgiri\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\jgiri\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\jgiri\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\jgiri\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\jgiri\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\jgiri\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\jgiri\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\jgiri\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\jgiri\.m2\repository\org\apache\logging\log4j\log4j-api\2.22.1\log4j-api-2.22.1.jar;C:\Users\jgiri\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\jgiri\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\jgiri\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\jgiri\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\jgiri\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\jgiri"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\jgiri\Tekarch_space\SeleniumAutomationFrameworkPOM"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\jgiri\AppData\Local\Temp\surefire6174374324126853404\surefirebooter-20240219190010098_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.9+11-LTS-201"/>
+    <property name="user.name" value="jgiri"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\jgiri\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\jgiri\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="user.dir" value="C:\Users\jgiri\Tekarch_space\SeleniumAutomationFrameworkPOM"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/jgiri/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858/jre/bin/server;C:/Users/jgiri/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858/jre/bin;C:\Users\jgiri\Maven\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\jgiri\AppData\Local\Microsoft\WindowsApps;;C:\Users\jgiri\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.9+11-LTS-201"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="CheckRemeberMe_TC3" classname="com.salesforce.automationtests.LoginTest" time="6.06">
+    <system-out><![CDATA[2024-02-19 19:00:10,905 INFO  SalesforceListenerUtility.java:45 - RegressionTest has started....................
+2024-02-19 19:00:11,036 INFO  BaseSalesforceTest.java:38 - .........BeforeMethod setUpBeforeMethod executed---------------
+2024-02-19 19:00:12,027 INFO  BaseSalesforceTest.java:56 - browser instance chrome created.
+2024-02-19 19:00:12,145 INFO  BaseSalesforceTest.java:58 - window is maximized
+2024-02-19 19:00:13,506 INFO  BaseSalesforceTest.java:92 - https://login.salesforce.com/ is entered
+2024-02-19 19:00:13,508 INFO  SalesforceListenerUtility.java:19 - CheckRemeberMe_TC3.......test execution started........
+2024-02-19 19:00:13,512 INFO  LoginTest.java:47 - *************CheckRemeberMe_TC3 Started**************
+2024-02-19 19:00:13,711 INFO  BasePage.java:38 - Data is entered in username textbox
+2024-02-19 19:00:13,867 INFO  BasePage.java:38 - Data is entered in password textbox
+2024-02-19 19:00:14,253 INFO  BasePage.java:57 - Remember Me button is clicked
+2024-02-19 19:00:16,006 INFO  BasePage.java:57 - Login Button button is clicked
+2024-02-19 19:00:16,007 INFO  BasePage.java:161 - waiting until page loads with 30 sec maximum
+2024-02-19 19:00:17,197 INFO  BasePage.java:73 - Title of the current webpage is Home Page ~ Salesforce - Developer Edition
+2024-02-19 19:00:17,292 INFO  BasePage.java:57 - User menu button is clicked
+2024-02-19 19:00:17,519 INFO  BasePage.java:57 - Logout button is clicked
+2024-02-19 19:00:19,524 INFO  BasePage.java:161 - waiting until page loads with 30 sec maximum
+2024-02-19 19:00:19,550 INFO  BasePage.java:73 - Title of the current webpage is Login | Salesforce
+]]></system-out>
+    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 7428
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 19, 2024 7:00:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="ForgotPassword_TC4A" classname="com.salesforce.automationtests.LoginTest" time="0.933">
+    <system-out><![CDATA[2024-02-19 19:00:19,572 INFO  SalesforceListenerUtility.java:26 - CheckRemeberMe_TC3.......test execution completed with success........
+2024-02-19 19:00:19,668 INFO  BaseSalesforceTest.java:99 - Browser instance closed
+2024-02-19 19:00:19,668 INFO  BaseSalesforceTest.java:47 - ******tearDownAfterTestMethod executed***********
+2024-02-19 19:00:19,670 INFO  BaseSalesforceTest.java:38 - .........BeforeMethod setUpBeforeMethod executed---------------
+2024-02-19 19:00:20,231 INFO  BaseSalesforceTest.java:56 - browser instance chrome created.
+2024-02-19 19:00:20,370 INFO  BaseSalesforceTest.java:58 - window is maximized
+2024-02-19 19:00:21,682 INFO  BaseSalesforceTest.java:92 - https://login.salesforce.com/ is entered
+2024-02-19 19:00:21,682 INFO  SalesforceListenerUtility.java:19 - ForgotPassword_TC4A.......test execution started........
+2024-02-19 19:00:21,682 INFO  LoginTest.java:74 - *************ForgotPassword_TC4A Started**************
+2024-02-19 19:00:21,986 INFO  BasePage.java:57 - Forgot your password? button is clicked
+2024-02-19 19:00:21,986 INFO  BasePage.java:161 - waiting until page loads with 30 sec maximum
+2024-02-19 19:00:22,000 INFO  BasePage.java:73 - Title of the current webpage is Forgot Your Password | Salesforce
+2024-02-19 19:00:22,169 INFO  BasePage.java:38 - Data is entered in username textbox
+2024-02-19 19:00:22,591 INFO  BasePage.java:57 - Continue button is clicked
+2024-02-19 19:00:22,615 INFO  BasePage.java:67 - Text is extracted from Password reset Message
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 23214
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 19, 2024 7:00:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="LoginErrorMessage_TC1" classname="com.salesforce.automationtests.LoginTest" time="0.892">
+    <system-out><![CDATA[2024-02-19 19:00:22,615 INFO  SalesforceListenerUtility.java:26 - ForgotPassword_TC4A.......test execution completed with success........
+2024-02-19 19:00:22,700 INFO  BaseSalesforceTest.java:99 - Browser instance closed
+2024-02-19 19:00:22,700 INFO  BaseSalesforceTest.java:47 - ******tearDownAfterTestMethod executed***********
+2024-02-19 19:00:22,710 INFO  BaseSalesforceTest.java:38 - .........BeforeMethod setUpBeforeMethod executed---------------
+2024-02-19 19:00:23,240 INFO  BaseSalesforceTest.java:56 - browser instance chrome created.
+2024-02-19 19:00:23,369 INFO  BaseSalesforceTest.java:58 - window is maximized
+2024-02-19 19:00:24,674 INFO  BaseSalesforceTest.java:92 - https://login.salesforce.com/ is entered
+2024-02-19 19:00:24,674 INFO  SalesforceListenerUtility.java:19 - LoginErrorMessage_TC1.......test execution started........
+2024-02-19 19:00:24,675 INFO  LoginTest.java:20 - *************LoginErrorMessage_TC1 Started**************
+2024-02-19 19:00:24,817 INFO  BasePage.java:38 - Data is entered in username textbox
+2024-02-19 19:00:25,200 INFO  BasePage.java:38 - Data is entered in password textbox
+2024-02-19 19:00:25,540 INFO  BasePage.java:57 - Login Button button is clicked
+2024-02-19 19:00:25,567 INFO  BasePage.java:67 - Text is extracted from Error Message
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 51738
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 19, 2024 7:00:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="LoginToSalesForce_TC2" classname="com.salesforce.automationtests.LoginTest" time="4.34">
+    <system-out><![CDATA[2024-02-19 19:00:25,567 INFO  SalesforceListenerUtility.java:26 - LoginErrorMessage_TC1.......test execution completed with success........
+2024-02-19 19:00:25,613 INFO  BaseSalesforceTest.java:99 - Browser instance closed
+2024-02-19 19:00:25,613 INFO  BaseSalesforceTest.java:47 - ******tearDownAfterTestMethod executed***********
+2024-02-19 19:00:25,613 INFO  BaseSalesforceTest.java:38 - .........BeforeMethod setUpBeforeMethod executed---------------
+2024-02-19 19:00:26,239 INFO  BaseSalesforceTest.java:56 - browser instance chrome created.
+2024-02-19 19:00:26,370 INFO  BaseSalesforceTest.java:58 - window is maximized
+2024-02-19 19:00:27,717 INFO  BaseSalesforceTest.java:92 - https://login.salesforce.com/ is entered
+2024-02-19 19:00:27,718 INFO  SalesforceListenerUtility.java:19 - LoginToSalesForce_TC2.......test execution started........
+2024-02-19 19:00:27,718 INFO  LoginTest.java:32 - *************LoginToSalesForce_TC2 Started**************
+2024-02-19 19:00:27,888 INFO  BasePage.java:38 - Data is entered in username textbox
+2024-02-19 19:00:28,040 INFO  BasePage.java:38 - Data is entered in password textbox
+2024-02-19 19:00:30,691 INFO  BasePage.java:57 - Login Button button is clicked
+2024-02-19 19:00:30,691 INFO  BasePage.java:161 - waiting until page loads with 30 sec maximum
+2024-02-19 19:00:32,057 INFO  BasePage.java:73 - Title of the current webpage is Home Page ~ Salesforce - Developer Edition
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 19605
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 19, 2024 7:00:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="ValidateLoginErrorMessage_TC4B" classname="com.salesforce.automationtests.LoginTest" time="0.33">
+    <system-out><![CDATA[2024-02-19 19:00:32,058 INFO  SalesforceListenerUtility.java:26 - LoginToSalesForce_TC2.......test execution completed with success........
+2024-02-19 19:00:32,138 INFO  BaseSalesforceTest.java:99 - Browser instance closed
+2024-02-19 19:00:32,139 INFO  BaseSalesforceTest.java:47 - ******tearDownAfterTestMethod executed***********
+2024-02-19 19:00:32,140 INFO  BaseSalesforceTest.java:38 - .........BeforeMethod setUpBeforeMethod executed---------------
+2024-02-19 19:00:32,667 INFO  BaseSalesforceTest.java:56 - browser instance chrome created.
+2024-02-19 19:00:32,784 INFO  BaseSalesforceTest.java:58 - window is maximized
+2024-02-19 19:00:34,161 INFO  BaseSalesforceTest.java:92 - https://login.salesforce.com/ is entered
+2024-02-19 19:00:34,162 INFO  SalesforceListenerUtility.java:19 - ValidateLoginErrorMessage_TC4B.......test execution started........
+2024-02-19 19:00:34,162 INFO  LoginTest.java:90 - *************ValidateLoginErrorMessage_TC4B Started**************
+2024-02-19 19:00:34,259 INFO  BasePage.java:38 - Data is entered in username textbox
+2024-02-19 19:00:34,349 INFO  BasePage.java:38 - Data is entered in password textbox
+2024-02-19 19:00:34,471 INFO  BasePage.java:57 - Login Button button is clicked
+2024-02-19 19:00:34,491 INFO  BasePage.java:67 - Text is extracted from Error Message
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 121.0.6167.184 (057a8ae7deb3374d0f1b04b36304d236f0136188-refs/branch-heads/6167@{#1818}) on port 48222
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 19, 2024 7:00:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
